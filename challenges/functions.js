@@ -37,7 +37,11 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation:
+/* Explanation: The reason that nestedFunction can access the variable internal is because when the function
+                myFunction is created a new scope and closure are created. Any variables declared within the myFunction will be
+                enclosed in the function's scope, so when nestedFunction looks for the variable internal it looks within the scope
+                of the outer function myFunction first before looking outside of myFunction.
+*/
 
 const external = "I'm outside the function";
 
