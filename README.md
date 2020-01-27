@@ -43,17 +43,17 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
-   Rule I: Window/Global Object Binding
-           This is binding when in global scope and the value of 'this' will be the window/console object.
+    Rule I: Window/Global Object Binding
+            This is binding when in global scope and the value of 'this' will be the window/console object.
 
-  Rule II: Implicit Binding
-           This is binding whenever the preceding dot calls a function, the object is represented by 'this'.	   
+    Rule II: Implicit Binding
+             This is binding whenever the preceding dot calls a function, the object is represented by 'this'.	   
 		   
- Rule III: New Binding
-           This is binding where 'this' refers to an instance of the object that is created and returned by the constructor.
+    Rule III: New Binding
+              This is binding where 'this' refers to an instance of the object that is created and returned by the constructor.
 		   
-  Rule IV: Explicit Binding
-           This is binding occurs when we use JavaScript's call or apply method. In this cas 'this' is explicitly defined.
+    Rule IV: Explicit Binding
+             This is binding occurs when we use JavaScript's call or apply method. In this cas 'this' is explicitly defined.
 		   
 5. Why do we need super() in an extended class?
 
@@ -75,7 +75,7 @@ Follow these steps to set up and work on your project:
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
 - [ ] Add your team lead as a Reviewer on the Pull-request
 - [ ] TL then will count the HW as done by  merging the branch back into master.
 
