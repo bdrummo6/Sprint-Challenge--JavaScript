@@ -10,8 +10,8 @@
 const dinoT = {
   name: 'tyrannosaurus',
   diet: 'carnivorous',
-  weight: 7000 + 'kg',
-  length: 12 + 'm',
+  weight: 7000,
+  length: 12,
   period: 'Late Cretaceous',
   roar: function () {
     return 'RAWERSRARARWERSARARARRRR!';
@@ -22,8 +22,8 @@ const dinoT = {
 const dinoS = {
   name: 'stegosaurus',
   diet: 'herbivorous',
-  weight: 2000 + 'kg',
-  length: 9 + 'm',
+  weight: 2000,
+  length: 9,
   period: 'Late Jurassic'
 };
 
@@ -31,8 +31,8 @@ const dinoS = {
 const dinoV = {
   name: 'velociraptor',
   diet: 'carnivorous',
-  weight: 15 + 'kg',
-  length: 1.8 + 'm',
+  weight: 15,
+  length: 1.8,
   period: 'Late Cretaceous'
 };
 
@@ -93,7 +93,7 @@ console.log(contactInfo);
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called unisWithUni that contains them all. This will be an array of objects. Log the result. */
 const unisWithUni = [];
 function contains (element, arr) {
-  const item = { university: element };
+  const item = { University: element };
   if(element.includes('Uni')) {
     arr.push(item);
   }
