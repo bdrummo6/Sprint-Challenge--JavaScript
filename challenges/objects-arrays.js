@@ -100,7 +100,6 @@ universities.forEach(element => contains(element, unisWithUni));
 console.log(unisWithUni);
 
 
-
 // ==== ADVANCED Array Methods ====
 
 // Given this zoo data from around the United States, follow the instructions below.  Use the specific array methods in the requests below to solve the problems.
@@ -133,7 +132,6 @@ console.log(displayNames);
 The zoos need a list of all their animal's names (animal_name only) converted to lower case. Using map, create a new array of strings named lowCaseAnimalNames, each string following this pattern: "jackal, asiatic". Log the resut.
 
 */
-
 const lowCaseAnimalNames = zooAnimals.map(animal => animal.animal_name.toLowerCase());
 
 console.log(lowCaseAnimalNames);
