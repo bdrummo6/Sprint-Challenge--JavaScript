@@ -13,9 +13,6 @@ const dinoT = {
   weight: 7000,
   length: 12,
   period: 'Late Cretaceous',
-  roar: function () {
-    return 'RAWERSRARARWERSARARARRRR!';
-  }
 };
 
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
@@ -50,8 +47,8 @@ console.log(dinoS.length);
 // What time period did tyrannosaurus live in?
 console.log(dinoT.period);
 
-
-// Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
+// Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result
+dinoT.roar = () => 'RAWERSRARARWERSARARARRRR!';
 console.log(dinoT.roar());
 
 
